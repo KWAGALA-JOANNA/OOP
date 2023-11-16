@@ -1,9 +1,10 @@
 # A user class with properties ie name, age, location
-class user:
+# Class starts with capital letters and they are singular
+class User:
     name = "Victor"
     age = 21
     location = 'Kasangati'
-user_info =user() # the new insatnce(object)
+user_info =User() # the new insatnce(object)
 print(user_info.name)
 print(user_info.age)
 
